@@ -7,10 +7,7 @@ package classes.tnk.text
 	public class TextUtil
 	{
 		
-		public function TextUtil() 
-		{
-			
-		}
+		public function TextUtil() {}
 		
 		/**
 		* 文字を...で省略

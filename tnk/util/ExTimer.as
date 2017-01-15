@@ -5,11 +5,7 @@ package classes.tnk.util
 	import flash.events.TimerEvent;
 	import caurina.transitions.Tweener;
 	
-	/**
-	 * ...
-	 * @author Yukio Sato / 310design (http://310design.org)
-	 * @version 0.9
-	 */
+
 	public class ExTimer extends EventDispatcher
 	{
 		private var _target:Object;
