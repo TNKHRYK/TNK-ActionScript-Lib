@@ -10,7 +10,8 @@
 	import flash.events.*;
 	import flash.net.URLRequest;
 	
-	 
+	
+	//Loading表示雛形 
 	public class Loading extends MovieClip
 	{
 		
@@ -30,7 +31,7 @@
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			
 			x = stage.width / 2;
-			y = stage.height / 2 - 40;
+			y = stage.height / 2;
 			gotoAndPlay(2);
 			
 			//addEventListener(Event.ACTIVATE, startLoading);
@@ -85,7 +86,6 @@
 			function completeHandler(e:Event)
 			{
 				//trace("completeです" + e.target);
-				
 				loading_mc.gotoAndPlay("endLoad");
 				//loading_mc.parent.content_mc.addChild(contentsLoader);
 				_root.main.content_mc.addChild(contentsLoader);
